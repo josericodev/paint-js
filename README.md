@@ -1,2 +1,2 @@
-# qrcode-generator
-Generador de códigos QR
+# Paint JS
+Aplicación para pintar y colorear

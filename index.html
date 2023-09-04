@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="author" content="Jose antonio rico">
+    <meta name="keywords" content="jose rico, Welcome to Paint, paint, color, colorea" />
+    <meta name="description" content="Welcome to Paint." />
+    <title>Paint JS</title>
+    <!-- Custome CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="work" id="work">
+        <div class="box-container">
+            <h2 class="heading"><i class="fas fa-pencil-alt"></i> Paint <span>JS</span></h2>
+            <form>
+                <div class="inputGroup"><input id="inputColor" type="color"><span id="textInputColor">#00000</span></div>
+                <div class="inputGroup"><input id="inputRange" min="1" max="100" type="range"><span id="textInputRange">50</span></div>
+            </form>
+            <div id="boxCanvas">
+                <canvas id="paintCanvas" width="800" height="600" background="white" style="border:1px solid #000; background-color: #fff;"></canvas>
+                <div id="boxOptions">
+                    <button id="clearButton"><i class="fas fa-trash-alt"></i></button>
+                    <button id="saveButton"><i class="fas fa-save"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>
